@@ -1,5 +1,5 @@
 const { createStore, applyMiddleware } = require('redux');
-const { default: logger } = require('redux-logger')
+const { logger } = require('redux-logger')
 
 // Contant
 const ADD_USER = 'ADD_USER';
